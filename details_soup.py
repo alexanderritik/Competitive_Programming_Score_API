@@ -168,7 +168,7 @@ class UserData:
         full, partial = problems_solved_get()
         details = {'status': 'Success', 'rating': int(rating), 'stars': stars, 'highest_rating': int(highest_rating),
                    'global_rank': global_rank, 'country_rank': country_rank,
-                   'user_details': user_details_get(), 'contests': contests_details_get(),
+                   'user_details': user_details_get(),
                    'contest_ratings': contest_rating_details_get(), 'fully_solved': full, 'partially_solved': partial}
 
         return details
